@@ -1,3 +1,5 @@
+// ignore_for_file: unused_field
+
 import 'package:flutter/material.dart';
 import 'package:modasanirim/first_widget.dart';
 import 'package:modasanirim/fourth_widget.dart';
@@ -5,7 +7,7 @@ import 'package:modasanirim/second_widget.dart';
 import 'package:modasanirim/third_widget.dart';
 
 void main(List<String> args) {
-  runApp(ModaApp());
+  runApp(const ModaApp());
 }
 
 class ModaApp extends StatelessWidget {
@@ -13,7 +15,7 @@ class ModaApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: AnaSayfa(),
     );
@@ -21,7 +23,7 @@ class ModaApp extends StatelessWidget {
 }
 
 class AnaSayfa extends StatefulWidget {
-  AnaSayfa({Key? key}) : super(key: key);
+  const AnaSayfa({Key? key}) : super(key: key);
 
   @override
   State<AnaSayfa> createState() => _AnaSayfaState();
@@ -64,20 +66,21 @@ class _AnaSayfaState extends State<AnaSayfa> {
       appBar: AppBar(
         actions: [
           IconButton(
-              icon: Icon(
+              icon: const Icon(
                 Icons.photo_camera,
               ),
               color: Colors.black,
               onPressed: () {}),
         ],
-        title: Text(
+        title: const Text(
           "App",
-          style: TextStyle(color: Colors.black, fontSize: 25),
+          style:  TextStyle(color: Colors.black, fontSize: 25),
         ),
         backgroundColor: Colors.white,
         elevation: 0,
       ),
-      body: Center(
+      body: Container(
+        color: Colors.grey.shade200,
         child: tumSayfalar[_selectedIndex],
       ),
       bottomNavigationBar: BottomNavigationBar(
