@@ -17,7 +17,7 @@ class _SecondWidgetState extends State<SecondWidget> {
          child: Material(
            elevation: 4,
            borderRadius: BorderRadius.circular(10),
-           color: index % 2 == 0 ? Colors.orangeAccent.shade200 : Colors.indigo.shade200,
+           color: index % 2 == 0 ? Colors.purple.shade200 : Colors.green.shade200,
            child: Center(child: Text(index.toString()),),
          ),
        );
