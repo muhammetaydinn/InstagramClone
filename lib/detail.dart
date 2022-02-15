@@ -51,9 +51,9 @@ class _DetayState extends State<Detay> {
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15),
                                 image: const DecorationImage(
-                                    fit: BoxFit.contain,
+                                    fit: BoxFit.cover,
                                     image: AssetImage(
-                                      "assets/4.png",
+                                      "assets/gf.jpg",
                                     )),
                                 border: Border.all(color: Colors.grey)),
                           ),

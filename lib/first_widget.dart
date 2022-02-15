@@ -42,54 +42,54 @@ class _AnaSayfaState extends State<AnaSayfa>
                 padding: const EdgeInsets.all(10),
                 scrollDirection: Axis.horizontal,
                 children: [
-                  listeElemani("assets/1.png", "assets/2.png"),
+                  listeElemani("assets/b.jpg", "assets/2.png"),
                   const SizedBox(
                     width: 10,
                   ),
-                  listeElemani("assets/2.png", "assets/2.png"),
+                  listeElemani("assets/gf.jpg", "assets/2.png"),
                   const SizedBox(
                     width: 10,
                   ),
-                  listeElemani("assets/3.png", "assets/2.png"),
+                  listeElemani("assets/j.jpg", "assets/2.png"),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  listeElemani("assets/ronaldo.jpg", "assets/2.png"),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  listeElemani("assets/s.jpg", "assets/2.png"),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  listeElemani("assets/b.jpg", "assets/2.png"),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  listeElemani("assets/gf.jpg", "assets/2.png"),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  listeElemani("assets/j.jpg", "assets/2.png"),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  listeElemani("assets/ronaldo.jpg", "assets/2.png"),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  listeElemani("assets/s.jpg", "assets/2.png"),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  listeElemani("assets/t.jpg", "assets/2.png"),
                   const SizedBox(
                     width: 10,
                   ),
                   listeElemani("assets/4.png", "assets/2.png"),
                   const SizedBox(
                     width: 10,
-                  ),
-                  listeElemani("assets/1.png", "assets/2.png"),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  listeElemani("assets/2.png", "assets/2.png"),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  listeElemani("assets/3.png", "assets/2.png"),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  listeElemani("assets/4.png", "assets/2.png"),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  listeElemani("assets/1.png", "assets/2.png"),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  listeElemani("assets/2.png", "assets/2.png"),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  listeElemani("assets/3.png", "assets/2.png"),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  listeElemani("assets/4.png", "assets/2.png"),
-                  const SizedBox(
-                    width: 10,
-                  ),
+                  )
                 ]),
           ),
           //card
@@ -114,7 +114,8 @@ class _AnaSayfaState extends State<AnaSayfa>
                             decoration: const BoxDecoration(
                                 shape: BoxShape.circle,
                                 image: DecorationImage(
-                                    image: AssetImage("assets/1.png"))),
+                                    image: AssetImage("assets/b.jpg"),
+                                    fit: BoxFit.cover)),
                           ),
                         ),
                         const SizedBox(
@@ -160,10 +161,10 @@ class _AnaSayfaState extends State<AnaSayfa>
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
                                 builder: (context) =>
-                                    Detay(imgPath: "assets/4.png")));
+                                    Detay(imgPath: "assets/s.jpg")));
                           },
                           child: Hero(
-                            tag: "assets/4.png",
+                            tag: "assets/s.jpg",
                             child: Container(
                               height: 260,
                               width:
@@ -171,7 +172,7 @@ class _AnaSayfaState extends State<AnaSayfa>
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(15),
                                   image: const DecorationImage(
-                                      image: const AssetImage("assets/4.png"),
+                                      image: const AssetImage("assets/s.jpg"),
                                       fit: BoxFit.cover,
                                       scale: 0.2)),
                             ),
@@ -186,10 +187,10 @@ class _AnaSayfaState extends State<AnaSayfa>
                               onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
                                     builder: (context) =>
-                                        Detay(imgPath: "assets/3.png")));
+                                        Detay(imgPath: "assets/t.jpg")));
                               },
                               child: Hero(
-                                tag: "assets/3.png",
+                                tag: "assets/t.jpg",
                                 child: Container(
                                   height: 127.5,
                                   width: (MediaQuery.of(context).size.width -
@@ -199,7 +200,7 @@ class _AnaSayfaState extends State<AnaSayfa>
                                       borderRadius: BorderRadius.circular(15),
                                       image: const DecorationImage(
                                           image:
-                                              const AssetImage("assets/3.png"),
+                                              const AssetImage("assets/t.jpg"),
                                           fit: BoxFit.cover,
                                           scale: 0.2)),
                                 ),
@@ -212,10 +213,10 @@ class _AnaSayfaState extends State<AnaSayfa>
                               onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
                                     builder: (context) =>
-                                        Detay(imgPath: "assets/2.png")));
+                                        Detay(imgPath: "assets/j.jpg")));
                               },
                               child: Hero(
-                                tag: "assets/2.png",
+                                tag: "assets/j.jpg",
                                 child: Container(
                                   height: 127.5,
                                   width: (MediaQuery.of(context).size.width -
@@ -224,7 +225,7 @@ class _AnaSayfaState extends State<AnaSayfa>
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(15),
                                       image: const DecorationImage(
-                                          image: AssetImage("assets/2.png"),
+                                          image: AssetImage("assets/j.jpg"),
                                           fit: BoxFit.cover,
                                           scale: 0.2)),
                                 ),
