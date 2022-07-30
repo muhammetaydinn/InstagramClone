@@ -1,6 +1,8 @@
-# modasanirim
+# Instagram Clone
+Emre Altunbilek Flutter Dersinde yapmış olduğum Clone
 
-A new Flutter project.
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/72871376/181936387-e045ba17-ddf8-44dd-bcf7-b306d6f67542.gif)
 
 ## Getting Started
 
